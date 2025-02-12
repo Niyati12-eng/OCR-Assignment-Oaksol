@@ -18,14 +18,17 @@ This project processes images to extract specific information using Optical Char
 ## Installation
 
 1. **Clone the Repository:**
+   
    git clone https://github.com/Niyati12-eng/OCR-Assignment-Oaksol
    
 2. **Install Tesseract OCR:**
+   
 Download the installer from the Tesseract at UB Mannheim(https://github.com/UB-Mannheim/tesseract/wiki)
 page and follow the installation instructions.
 
 
 3.**Configure MySQL Database:**
+
 Ensure MySQL is installed and running.
 Create a database named your_database.
 Update the connect_database() function in main.py with your MySQL credentials:
