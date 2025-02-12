@@ -31,7 +31,7 @@ c) **Configure MySQL Database:**
 
 Ensure MySQL is installed and running.
 Create a database named your_database.
-Update the connect_database() function in main.py with your MySQL credentials:
+Update the connect_database() function in code with your MySQL credentials:
 
 connection = mysql.connector.connect(
     host="localhost",
@@ -39,19 +39,6 @@ connection = mysql.connector.connect(
     password="your_password",
     database="your_database"
 )
-
-d) **Prepare the Database Table:**
-
-Execute the following SQL command to create the patients table:
-
-CREATE TABLE patients (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255),
-    dob DATE,
-    pain INT,
-    numbness INT,
-    tingling INT
-);
 
 ## Usage
 
