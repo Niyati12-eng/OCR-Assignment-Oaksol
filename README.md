@@ -20,14 +20,15 @@ This project processes images to extract specific information using Optical Char
 1. **Clone the Repository:**
    git clone https://github.com/Niyati12-eng/OCR-Assignment-Oaksol
    
-2. Install Tesseract OCR:
+2. **Install Tesseract OCR:**
+   
 Windows:
 
 Download the installer from the Tesseract at UB Mannheim(https://github.com/UB-Mannheim/tesseract/wiki)
 page and follow the installation instructions.
 
 
-3.Configure MySQL Database:
+3.**Configure MySQL Database:**
 
 Ensure MySQL is installed and running.
 
@@ -42,7 +43,7 @@ connection = mysql.connector.connect(
     database="your_database"
 )
 
-4. Prepare the Database Table:
+4. **Prepare the Database Table:**
 
 Execute the following SQL command to create the patients table:
 
@@ -57,11 +58,11 @@ CREATE TABLE patients (
 
 ## Usage
 
-1. Place the Image:
+1.** Place the Image:**
 
 Ensure your target image (e.g., newform.jpg) is in the project directory.
 
-2. Run the Code:
+2.** Run the Code:**
 
 OCR Assignment.ipynb
 
